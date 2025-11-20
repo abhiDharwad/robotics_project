@@ -1,0 +1,4 @@
+bool greyscale
+bool color
+---
+bool converted

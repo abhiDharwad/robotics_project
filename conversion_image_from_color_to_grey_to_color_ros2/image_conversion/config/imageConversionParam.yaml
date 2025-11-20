@@ -1,0 +1,4 @@
+OpencvImageConverter:
+  ros__parameters:
+    cameraTopic: "/camera1/image_raw"
+    imageOutputTopic: "/convertedImage"

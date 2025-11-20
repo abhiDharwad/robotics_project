@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+    <include file="$(find-pkg-share usb_cam)/launch/camera.launch.py"/>
+
+    <node pkg="image_conversion" exec="server" output="screen">
+        <param from="$(find-pkg-share image_conversion)/config/imageConversionParam.yaml"/>
+    </node>
+</launch>
